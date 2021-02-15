@@ -13,7 +13,7 @@ void hash_gen::init_log() const {
   boost::log::add_common_attributes();
   auto trace_log_f = boost::log::add_file_log(
       boost::log::keywords::file_name =
-          "/home/kochu/labs/lab06multithreads/Logs/LogTrace_%N.log",
+          "/home/kochu/fixedlabs/lab06fixed/Logs/LogTrace_%N.log",
       boost::log::keywords::rotation_size = rotatation_size,
       boost::log::keywords::format =
           "[%TimeStamp%][%Severity%][%ThreadID%]: [%Message%]");
@@ -23,7 +23,7 @@ void hash_gen::init_log() const {
 
   auto info_log_f = boost::log::add_file_log(
       boost::log::keywords::file_name =
-          "/home/kochu/labs/lab06multithreads/Logs/LogInfo_%N.log",
+          "/home/kochu/fixedlabs/lab06fixedLogs/LogInfo_%N.log",
       boost::log::keywords::rotation_size = rotatation_size,
       boost::log::keywords::format =
           "[%TimeStamp%][%Severity%][%ThreadID%]: [%Message%]");
