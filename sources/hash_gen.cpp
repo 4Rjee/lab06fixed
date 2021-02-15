@@ -1,4 +1,4 @@
-// Copyright 2021 Kochurin Nikita kochurin.nikita@gmail.com
+// 1Copyright 2021 Kochurin Nikita kochurin.nikita@gmail.com
 
 #include "hash_gen.hpp"
 
